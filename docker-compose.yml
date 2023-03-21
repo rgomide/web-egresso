@@ -16,6 +16,7 @@ services:
     working_dir: /var/www/html/
     volumes:
       - ./:/var/www/html/
+      - /var/www/html/vendor
       - ./php/laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
       - ./php/start.sh:/var/www/html/start.sh    
       - ./docker/development/wait-for-it.sh:/var/www/html/wait-for-it.sh
