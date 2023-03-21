@@ -1,2 +1,2 @@
-# sistema-acompanhamento-egressos
+# WebEgresso
 Sistema de acompanhamento de egressos
