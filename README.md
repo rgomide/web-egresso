@@ -15,7 +15,7 @@ docker-compose up
 
 É recomendado que você utilize o [VSCode](https://code.visualstudio.com/download) e instale a extensão [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack).
 
-Para o banco de dados você pode utilizar qualquer um de sua preferência. Recomenda-se o [DBeaver](https://dbeaver.io/download/).
+Para o banco de dados você pode utilizar qualquer client de sua preferência. Recomenda-se o [DBeaver](https://dbeaver.io/download/).
 
 Utilize as seguintes credenciais:
 ```bash
