@@ -17,6 +17,15 @@ docker-compose up
 
 Para o banco de dados você pode utilizar qualquer um de sua preferência. Recomenda-se o [DBeaver](https://dbeaver.io/download/).
 
+Utilize as seguintes credenciais:
+```bash
+host=localhost
+port=3306
+database=laravel_web
+username=root
+password=123456
+```
+
 Utilize o comando `docker-compose up` para inicializar o projeto. Para acessar o terminal do container principal, execute o comando:
 ```bash
 docker-compose run app bash
