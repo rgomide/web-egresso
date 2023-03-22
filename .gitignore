@@ -21,3 +21,5 @@ wait-for-it.sh
 /.fleet
 /.idea
 /.vscode
+/public/css
+/public/js

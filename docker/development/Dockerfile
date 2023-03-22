@@ -50,6 +50,10 @@ RUN composer update
 RUN composer install
 RUN composer global require tightenco/tlint
 
+RUN curl -sL https://deb.nodesource.com/setup_18.x  | bash -
+RUN apt-get -y install nodejs
+RUN npm install
+
 # Expose port 9000 and start php-fpm server (for FastCGI Process Manager)
 EXPOSE 9000
 CMD ["php-fpm"]

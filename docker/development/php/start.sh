@@ -1,1 +1,3 @@
-php-fpm;
+#!/bin/bash
+
+npx mix watch & php-fpm;
