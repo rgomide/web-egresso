@@ -13,8 +13,10 @@ docker-compose up
 
 ## Ambiente de desenvolvimento
 
-É recomendado que você utilize o [VSCode](https://code.visualstudio.com/download) e instale as extensões [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) e [tighten-lint
-](https://marketplace.visualstudio.com/items?itemName=d9705996.tighten-lint).
+É recomendado que você utilize o [VSCode](https://code.visualstudio.com/download) e instale as extensões:
+- [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
+- [tighten-lint](https://marketplace.visualstudio.com/items?itemName=d9705996.tighten-lint)
+- [PHP formater](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.phptools-vscode)
 
 Para o banco de dados você pode utilizar qualquer client de sua preferência. Recomenda-se o [DBeaver](https://dbeaver.io/download/).
 
@@ -37,7 +39,10 @@ docker-compose run app bash
 Este projeto utiliza o [tlint](https://github.com/tighten/tlint) para adotar os padrões de formatação e estrutura de código PHP + Laravel.
 
 Comandos:
-
+- Formatar código:
+```bash
+~/.composer/vendor/tightenco/tlint/bin/tlint format
+```
 
 ## Banco de dados
 
