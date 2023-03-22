@@ -17,8 +17,8 @@ services:
     volumes:
       - ./:/var/www/html/
       - /var/www/html/vendor
-      - ./php/laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
-      - ./php/start.sh:/var/www/html/start.sh    
+      - ./docker/development/php/laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
+      - ./docker/development/php/start.sh:/var/www/html/start.sh    
       - ./docker/development/wait-for-it.sh:/var/www/html/wait-for-it.sh
     networks:
       - app-network
@@ -34,7 +34,7 @@ services:
       - "443:443"
     volumes:
       - ./:/var/www/html/
-      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ./docker/development/nginx/conf.d/:/etc/nginx/conf.d/
     networks:
       - app-network
 
@@ -53,7 +53,7 @@ services:
       SERVICE_NAME: mysql
     volumes:
       - dbdata:/var/lib/mysql/
-      - ./mysql/my.cnf:/etc/mysql/my.cnf
+      - ./docker/development/mysql/my.cnf:/etc/mysql/my.cnf
     networks:
       - app-network
 
