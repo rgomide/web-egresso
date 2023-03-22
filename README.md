@@ -1,2 +1,2 @@
 # WebEgresso
-Sistema de acompanhamento de egressos
+WebEgresso - Sistema de acompanhamento de egressos
