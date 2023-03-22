@@ -38,7 +38,7 @@ docker-compose run app bash
 
 Este projeto utiliza o [tlint](https://github.com/tighten/tlint) para adotar os padrões de formatação e estrutura de código PHP + Laravel.
 
-Comandos:
+Comandos do tlint para executar no `bash` do container `app`:
 - Formatar código:
 ```bash
 ~/.composer/vendor/tightenco/tlint/bin/tlint format
@@ -46,7 +46,7 @@ Comandos:
 
 ## Banco de dados
 
-Execute os comandos de migração acessando o `bash` do container `app` (`docker-compose run app bash`).
+Execute os comandos de migração acessando o `bash` do container `app`.
 
 - Executar migração: 
 ```bash
