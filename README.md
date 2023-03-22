@@ -70,3 +70,5 @@ php artisan migrate:status
 
 ## Referências
 - [Laravel Migrations](https://laravel.com/docs/10.x/migrations)
+- [Tailwind - Documentation](https://tailwindcss.com/docs/installation)
+- [DBeaver](https://dbeaver.io/download/)

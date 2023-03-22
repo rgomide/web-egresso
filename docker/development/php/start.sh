@@ -1,3 +1,6 @@
 #!/bin/bash
 
-npx mix watch & php-fpm;
+# Installing dependencies
+npm install;
+# Starting application
+php-fpm & npx mix watch;
