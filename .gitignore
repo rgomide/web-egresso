@@ -16,8 +16,8 @@ npm-debug.log
 yarn-error.log
 composer.lock
 /mysql_data
-./wait-for-it.sh
-./start.sh
+wait-for-it.sh
+start.sh
 /.fleet
 /.idea
 /.vscode

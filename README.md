@@ -8,6 +8,17 @@ WebEgresso - Sistema de acompanhamento de egressos
 - Execute o comando `docker-compose up`.
 - Acesse a aplicação a partir da URL: [http://localhost:8080](http://localhost:8080)
 
+## Ambiente de desenvolvimento
+
+É recomendado que você utilize o [VSCode](https://code.visualstudio.com/download) e instale a extensão [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack).
+
+Para o banco de dados você pode utilizar qualquer um de sua preferência. Recomenda-se o [DBeaver](https://dbeaver.io/download/).
+
+Utilize o comando `docker-compose up` para inicializar o projeto. Para acessar o terminal do container principal, execute o comando:
+```bash
+docker-compose run app bash
+```
+
 ## Banco de dados
 
 Execute os comandos de migração acessando o `bash` do container `app` (`docker-compose run app bash`).

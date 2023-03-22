@@ -9,7 +9,13 @@ services:
     container_name: app
     restart: unless-stopped
     tty: true
-    command: ["/var/www/html/wait-for-it.sh","db:3306","--","/var/www/html/start.sh"]
+    command:
+      [
+        "/var/www/html/wait-for-it.sh",
+        "db:3306",
+        "--",
+        "/var/www/html/start.sh"
+      ]
     environment:
       SERVICE_NAME: app
       SERVICE_TAGS: dev
@@ -18,7 +24,7 @@ services:
       - ./:/var/www/html/
       - /var/www/html/vendor
       - ./docker/development/php/laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
-      - ./docker/development/php/start.sh:/var/www/html/start.sh    
+      - ./docker/development/php/start.sh:/var/www/html/start.sh
       - ./docker/development/wait-for-it.sh:/var/www/html/wait-for-it.sh
     networks:
       - app-network
