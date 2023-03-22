@@ -13,7 +13,8 @@ docker-compose up
 
 ## Ambiente de desenvolvimento
 
-É recomendado que você utilize o [VSCode](https://code.visualstudio.com/download) e instale a extensão [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack).
+É recomendado que você utilize o [VSCode](https://code.visualstudio.com/download) e instale as extensões [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) e [tighten-lint
+](https://marketplace.visualstudio.com/items?itemName=d9705996.tighten-lint).
 
 Para o banco de dados você pode utilizar qualquer client de sua preferência. Recomenda-se o [DBeaver](https://dbeaver.io/download/).
 
@@ -30,6 +31,13 @@ Utilize o comando `docker-compose up` para inicializar o projeto. Para acessar o
 ```bash
 docker-compose run app bash
 ```
+
+## Linter
+
+Este projeto utiliza o [tlint](https://github.com/tighten/tlint) para adotar os padrões de formatação e estrutura de código PHP + Laravel.
+
+Comandos:
+
 
 ## Banco de dados
 

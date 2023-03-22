@@ -22,6 +22,7 @@ services:
     working_dir: /var/www/html/
     volumes:
       - ./:/var/www/html/
+      - ./composer.json:/var/www/html/composer.json
       - /var/www/html/vendor
       - ./docker/development/php/laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
       - ./docker/development/php/start.sh:/var/www/html/start.sh
