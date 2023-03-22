@@ -61,12 +61,8 @@ php artisan migrate:rollback
 php artisan migrate:status
 ```
 
-## Comandos auxiliares
+## Testes
 
-- Acessar a linha de comando para o container `app`: 
-```bash
-docker-compose run app bash
-```
 - Executar testes dentro do container `app`: 
 ```bash
 ./vendor/bin/phpunit
