@@ -61,9 +61,6 @@ php artisan migrate:rollback
 php artisan migrate:status
 ```
 
-### Referências
-- [Laravel Migrations](https://laravel.com/docs/10.x/migrations)
-
 ## Comandos auxiliares
 
 - Acessar a linha de comando para o container `app`: 
@@ -74,3 +71,6 @@ docker-compose run app bash
 ```bash
 ./vendor/bin/phpunit
 ```
+
+## Referências
+- [Laravel Migrations](https://laravel.com/docs/10.x/migrations)
