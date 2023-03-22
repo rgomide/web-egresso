@@ -6,6 +6,7 @@ WebEgresso - Sistema de acompanhamento de egressos
 - Instale o [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 - Crie o arquivo `.env` na raiz do projeto com o conteúdo do arquivo `.env.example`.
 - Execute o comando `docker-compose up`.
+- Acesse a aplicação a partir da URL: [http://localhost:8080](http://localhost:8080)
 
 ## Banco de dados
 
